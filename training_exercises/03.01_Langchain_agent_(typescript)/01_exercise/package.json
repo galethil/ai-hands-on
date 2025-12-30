@@ -1,0 +1,29 @@
+{
+  "name": "agent-weather",
+  "version": "1.0.0",
+  "description": "Small application that will get current weather information using a Langchain agent and an LLM.",
+  "keywords": [
+    "ai",
+    "LLM",
+    "weather"
+  ],
+  "license": "ISC",
+  "author": "galethil",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx agent-weather.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.3",
+    "@langchain/ollama": "^1.0.3",
+    "@langchain/openai": "^1.1.3",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
