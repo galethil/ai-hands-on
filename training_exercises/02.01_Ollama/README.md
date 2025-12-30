@@ -16,6 +16,33 @@ In this exercise, you'll break free from cloud dependency and run a powerful Lar
 
 ---
 
+## EXERCISES
+
+### 1. **RUN Llama 3.1 locally**
+
+Start and use Ollama locally in docker. Download `llama3.1:8b` model and chat with it. [Ollama quickstart](https://docs.ollama.com/quickstart)
+
+**Acceptance criteria**
+
+- When you run `docker exec -it ollama ollama run llama3.1:8b` you can chat with the model.
+
+### 2. **Use Rest API**
+
+Start and use Ollama's API interface. [Ollama API documentation](https://docs.ollama.com/api/introduction#example-request)
+
+- Make an HTPP request (with curl or Postman) that will ask "What is the capital of Slovakia?". You should get an correct answer. 
+
+### 3. **List all downloaded models**
+
+- Use terminal to list all downloaded models in your Ollama
+
+### 4. **Delete downloaded model**
+
+- Use terminal to delete downloaded model.
+- List all downloaded models to confirm
+
+---
+
 ## 📚 Before you start - reading & setup
 
 Before you embark on this journey to AI independence, arm yourself with knowledge:
@@ -56,32 +83,6 @@ By the end of this exercise, you will:
 5. ✅ **Understand model management** (listing, removing, updating models)
 6. ✅ **Know your way around different models** and their use cases
 
----
-
-## EXERCISES
-
-### 1. **RUN Llama 3.1 locally**
-
-Start and use Ollama locally in docker. Download `llama3.1:8b` model and chat with it. [Ollama quickstart](https://docs.ollama.com/quickstart)
-
-**Acceptance criteria**
-
-- When you run `docker exec -it ollama ollama run llama3.1:8b` you can chat with the model.
-
-### 2. **Use Rest API**
-
-Start and use Ollama's API interface. [Ollama API documentation](https://docs.ollama.com/api/introduction#example-request)
-
-- Make an HTPP request (with curl or Postman) that will ask "What is the capital of Slovakia?". You should get an correct answer. 
-
-### 3. **List all downloaded models**
-
-- Use terminal to list all downloaded models in your Ollama
-
-### 4. **Delete downloaded model**
-
-- Use terminal to delete downloaded model.
-- List all downloaded models to confirm
 
 ---
 
