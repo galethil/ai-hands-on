@@ -16,30 +16,59 @@ In this exercise, you'll break free from cloud dependency and run a powerful Lar
 
 ---
 
-## EXERCISES
+## 🚀 EXERCISES 🚀
 
-### 1. **RUN Llama 3.1 locally**
+Complete these exercises in order to master local LLM deployment and management!
 
-Start and use Ollama locally in docker. Download `llama3.1:8b` model and chat with it. [Ollama quickstart](https://docs.ollama.com/quickstart)
+---
 
-**Acceptance criteria**
+### Exercise 1: Run Llama 3.1 Locally
 
-- When you run `docker exec -it ollama ollama run llama3.1:8b` you can chat with the model.
+**📝 Task:**  
+Start and use Ollama locally in Docker. Download the `llama3.1:8b` model and chat with it.
 
-### 2. **Use Rest API**
+**📚 Resources:**  
+[Ollama Quickstart Guide](https://docs.ollama.com/quickstart)
 
-Start and use Ollama's API interface. [Ollama API documentation](https://docs.ollama.com/api/introduction#example-request)
+**✅ Acceptance Criteria:**
+- ✓ You can successfully run `docker exec -it ollama ollama run llama3.1:8b`
+- ✓ You can have a conversation with the model in your terminal
 
-- Make an HTPP request (with curl or Postman) that will ask "What is the capital of Slovakia?". You should get an correct answer. 
+---
 
-### 3. **List all downloaded models**
+### Exercise 2: Use the REST API
 
-- Use terminal to list all downloaded models in your Ollama
+**📝 Task:**  
+Interact with Ollama through its HTTP API interface.
 
-### 4. **Delete downloaded model**
+**📚 Resources:**  
+[Ollama API Documentation](https://docs.ollama.com/api/introduction#example-request)
 
-- Use terminal to delete downloaded model.
-- List all downloaded models to confirm
+**✅ Acceptance Criteria:**
+- ✓ Make an HTTP request (using curl or Postman) asking "What is the capital of Slovakia?"
+- ✓ Receive a correct answer from the model via the API
+
+---
+
+### Exercise 3: List All Downloaded Models
+
+**📝 Task:**  
+Use the Ollama CLI to view all models currently stored on your system.
+
+**✅ Acceptance Criteria:**
+- ✓ Successfully list all downloaded models using the terminal
+- ✓ Verify that `llama3.1:8b` appears in the list
+
+---
+
+### Exercise 4: Delete a Downloaded Model
+
+**📝 Task:**  
+Clean up your local storage by removing a model you no longer need.
+
+**✅ Acceptance Criteria:**
+- ✓ Successfully delete a downloaded model using the terminal
+- ✓ List all models again to confirm the deletion
 
 ---
 
